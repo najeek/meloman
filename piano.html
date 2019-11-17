@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Piano Lessons | Meloman</title>
+    <link rel="stylesheet" href="css/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="js/aos-master/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <p class="is-uppercase title">
+                    <img src="icons/piano.svg" aria-hidden="true">Meloman
+                </p>
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a href="index.html" class="navbar-item">Home</a>
+                <a href="violin.html" class="navbar-item">Violin</a>
+                <a href="piano.html" class="navbar-item">Piano</a>
+                <a href="contact.html" class="navbar-item">Contact</a>
+                <a href="mentor.html" class="navbar-item">Become a mentor</a>
+            </div>
+        </div>
+    </nav>
+    <section class="hero is-danger is-medium">
+        <div class="hero-body">
+            <div class='columns'>
+                <div class='column has-text-left'>
+                    <h1 class="title is-size-1">
+                        Piano Tutorials
+                    </h1>
+                    <h2 class="subtitle is-size-2">
+                        It is easy to become a virtuoso!
+                    </h2>
+                </div>
+                <div class="column main-pic">
+                    <img src='icons/grand-piano.svg'>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="tabs is-centered">
+        <ul class='is-size-3'>
+            <li id="all" class="is-active">
+                <a onClick="switchToAll()">All</a>
+            </li>
+            <li id="beginner">
+                <a onClick="switchToBeginner()">Beginner</a>
+            </li>
+            <li id="middle">
+                <a onClick="switchToMiddle()">Intermediate</a>
+            </li>
+            <li id="advanced">
+                <a onClick="switchToAdvanced()">Advanced</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Beginner Tutorials Section-->
+    <div class="tile is-ancestor beginner">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-success">
+                <a href='https://www.youtube.com/watch?v=827jmswqnEA'>
+                    <img src='img/piano-img.png'>
+                </a>
+                <p class="subtitle has-text-light">Learn some simple chords</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=827jmswqnEA" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-success">
+                <a href='https://www.youtube.com/watch?v=hTmjb9CtsTQ'>
+                    <img src='img/piano-img.png'>
+                </a>
+                <p class="subtitle has-text-light">Interesting chord accompaniment patterns</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=hTmjb9CtsTQ" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-success">
+                <a href='https://www.youtube.com/watch?v=PeYSesLA5K4'>
+                    <img src='img/piano-img.png'>
+                </a>
+                <p class="subtitle has-text-light"> More important chords you should know</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=PeYSesLA5K4" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-success">
+                <a href='https://www.youtube.com/watch?v=ZD_sAWAlWq0'>
+                    <img src='img/piano-img.png'>
+                </a>
+                <p class="subtitle has-text-light"> What About the Left Hand?</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=ZD_sAWAlWq0" class='button'>Watch</a>
+            </article>
+        </div>
+    </div>
+    <!-- Intermediate-->
+    <div class="tile is-ancestor middle">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-warning">
+                <a href='https://www.youtube.com/watch?v=sJZ9yPGuh9w'>
+                    <img src='img/piano-middle.png'>
+                </a>
+                <p class="subtitle has-text-light">Two-Hand Coordination</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=sJZ9yPGuh9w" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-warning">
+                <a href='https://www.youtube.com/watch?v=SE27Uy1jAg8'>
+                    <img src='img/piano-middle.png'>
+                </a>
+                <p class="subtitle has-text-light">Coordinate Left & Right Hand</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=SE27Uy1jAg8" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-warning">
+                <a href='https://www.youtube.com/watch?v=eRkgK4jfi6M'>
+                    <img src='img/piano-middle.png'>
+                </a>
+                <p class="subtitle has-text-light">Triste</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=eRkgK4jfi6M" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-warning">
+                <a href='https://www.youtube.com/watch?v=UyVc-3gbNAY'>
+                    <img src='img/piano-middle.png'>
+                </a>
+                <p class="subtitle has-text-light">Fly Me To The Moon </p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=UyVc-3gbNAY" class='button'>Watch</a>
+            </article>
+        </div>
+    </div>
+    <!-- Advanced-->
+    <div class="tile is-ancestor advanced">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-danger">
+                <a href='https://www.youtube.com/watch?v=qzEChIA_DJ0'>
+                    <img src='img/pianoadvanced.png'>
+                </a>
+                <p class="subtitle has-text-light">Arpeggios Tutorial</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=qzEChIA_DJ0" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-danger">
+                <a href='https://www.youtube.com/watch?v=y6WWPMP_JGA'>
+                    <img src='img/pianoadvanced.png'>
+                </a>
+                <p class="subtitle has-text-light">BOHEMIAN RHAPSODY (Queen)</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=y6WWPMP_JGA" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-danger">
+                <a href='https://www.youtube.com/watch?v=4y33h81phKU'>
+                    <img src='img/pianoadvanced.png'>
+                </a>
+                <p class="subtitle has-text-light">Hans Zimmer - Interstellar</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=4y33h81phKU" class='button'>Watch</a>
+            </article>
+        </div>
+    </div>
+    <div class='hero is-small is-white has-background-info'>
+        <div class='hero-body'>
+            <div class='block has-text-centered'>
+                <a href='index.html' class='button'>Home</a>
+                <a href='violin.html' class='button'>Violin</a>
+                <a href='piano.html' class='button is-primary'>Piano</a>
+                <a href='contact.html' class='button'>Contact</a>
+                <a href='mentor.html' class='button'>Become a mentor</a>
+            </div>
+        </div>
+    </div>
+    <footer class="hero hero-small has-background-info has-text-white">
+        <div class="hero-body">
+            <div class="container">
+                <div class="content">
+                    <p class="has-text-centered is-size-4">
+                        This site was created to fulfill Web Technologies module’s requirements and does not represent actual company.
+                    </p>
+                    <p class="has-text-centered is-size-4">
+                        <a href="00007338.docx" class="button has-text-primary">Plan and evaluation report.</a>
+                    </p>
+                    <p class="has-text-centered is-size-3">
+                        <strong>My ID:00007338</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

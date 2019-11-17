@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Violin Lessons | Meloman</title>
+    <link rel="stylesheet" href="css/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="js/aos-master/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <p class="is-uppercase title">
+                    <img src="icons/piano.svg" aria-hidden="true">Meloman
+                </p>
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a href="index.html" class="navbar-item">Home</a>
+                <a href="violin.html" class="navbar-item">Violin</a>
+                <a href="piano.html" class="navbar-item">Piano</a>
+                <a href="contact.html" class="navbar-item">Contact</a>
+                <a href="mentor.html" class="navbar-item">Become a mentor</a>
+            </div>
+        </div>
+    </nav>
+    <section class="hero is-warning is-medium">
+        <div class="hero-body">
+            <div class='columns'>
+                <div class='column has-text-left'>
+                    <h1 class="title is-size-1">
+                        Violin Tutorials
+                    </h1>
+                    <h2 class="subtitle is-size-2">
+                        Explore our violin tutorials and become master
+                    </h2>
+                </div>
+                <div class="column main-pic">
+                    <img src='icons/violin.svg'>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="tabs is-centered">
+        <ul class='is-size-3'>
+            <li id="all" class="is-active">
+                <a onClick="switchToAll()">All</a>
+            </li>
+            <li id="beginner">
+                <a onClick="switchToBeginner()">Beginner</a>
+            </li>
+            <li id="middle">
+                <a onClick="switchToMiddle()">Intermediate</a>
+            </li>
+            <li id="advanced">
+                <a onClick="switchToAdvanced()">Advanced</a>
+            </li>
+        </ul>
+    </div>
+    <div class="tile is-ancestor beginner">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-success">
+                <a href='https://youtu.be/iPbCdOsrDK4'>
+                    <img src='img/caption.png'>
+                </a>
+                <p class="subtitle has-text-light">How to hold the violin & bow</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://youtu.be/iPbCdOsrDK4" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-success">
+                <a href='https://www.youtube.com/watch?v=k2pxLr13ve4'>
+                    <img src='img/caption.png'>
+                </a>
+                <p class="subtitle has-text-light">Parts of the violin</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=k2pxLr13ve4" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-success">
+                <a href='https://www.youtube.com/watch?v=3OaBwXc_fP4'>
+                    <img src='img/caption.png'>
+                </a>
+                <p class="subtitle has-text-light">Names of strings & notes</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=3OaBwXc_fP4" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-success">
+                <a href='https://www.youtube.com/watch?v=dBqnxJYKRqQ'>
+                    <img src='img/caption.png'>
+                </a>
+                <p class="subtitle has-text-light">How and where to bow</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=dBqnxJYKRqQ" class='button'>Watch</a>
+            </article>
+        </div>
+    </div>
+    <div class="tile is-ancestor beginner">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-success">
+                <a href='https://www.youtube.com/watch?v=JdBUYDjITHE'>
+                    <img src='img/caption.png'>
+                </a>
+                <p class="subtitle has-text-light">Learning the open string notes</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=JdBUYDjITHE" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-success">
+                <a href='https://www.youtube.com/watch?v=XkYdSy6p2J0'>
+                    <img src='img/caption.png'>
+                </a>
+                <p class="subtitle has-text-light">Learning the 1st finger notes</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=XkYdSy6p2J0" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-success">
+                <a href='https://www.youtube.com/watch?v=NlmYX4dNrVo'>
+                    <img src='img/caption.png'>
+                </a>
+                <p class="subtitle has-text-light">3rd & 4th finger exercises</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=NlmYX4dNrVo" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-success">
+                <a href='https://www.youtube.com/watch?v=lT_PsgN_qSY'>
+                    <img src='img/caption.png'>
+                </a>
+                <p class="subtitle has-text-light"> All the notes!</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=lT_PsgN_qSY" class='button'>Watch</a>
+            </article>
+        </div>
+    </div>
+    <!-- Intermediate-->
+    <div class="tile is-ancestor middle">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-warning">
+                <a href='https://www.youtube.com/watch?v=mGX-aiPa2Lc'>
+                    <img src='img/middle.png'>
+                </a>
+                <p class="subtitle has-text-light">How to Play Hey Brother - Avicii</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=mGX-aiPa2Lc" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-warning">
+                <a href='https://www.youtube.com/watch?v=3bx2igMTOqQ'>
+                    <img src='img/middle.png'>
+                </a>
+                <p class="subtitle has-text-light">One Direction - I want to write you a song</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=3bx2igMTOqQ" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-warning">
+                <a href='https://www.youtube.com/watch?v=5Nq5pL6s5zo'>
+                    <img src='img/middle.png'>
+                </a>
+                <p class="subtitle has-text-light">How to play Melody - Oliver Heldens</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=5Nq5pL6s5zo" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-warning">
+                <a href='https://www.youtube.com/watch?v=yKCpxA7NWhk'>
+                    <img src='img/middle.png'>
+                </a>
+                <p class="subtitle has-text-light">Faded - Alan Walker (how to play)</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=yKCpxA7NWhk" class='button'>Watch</a>
+            </article>
+        </div>
+    </div>
+    <!-- Advanced-->
+    <div class="tile is-ancestor advanced">
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-danger">
+                <a href='https://www.youtube.com/watch?v=nhAr4ll5QC8'>
+                    <img src='img/advanced.png'>
+                </a>
+                <p class="subtitle has-text-light">How to play FAIRYTALE - Alexander Rybak</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=nhAr4ll5QC8" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-danger">
+                <a href='https://www.youtube.com/watch?v=X2FnKV8tYb4'>
+                    <img src='img/advanced.png'>
+                </a>
+                <p class="subtitle has-text-light">How to Produce Effortless Spiccato with Elegance and Control</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=X2FnKV8tYb4" class='button'>Watch</a>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child box has-text-centered has-background-danger">
+                <a href='https://www.youtube.com/watch?v=7oZ59qjGu_8'>
+                    <img src='img/advanced.png'>
+                </a>
+                <p class="subtitle has-text-light">How to play the Godfather like a pro</p>
+                <a href="contact.html#comments" class='button'>Comment</a>
+                <a href="https://www.youtube.com/watch?v=7oZ59qjGu_8" class='button'>Watch</a>
+            </article>
+        </div>
+    </div>
+    <div class='hero is-small is-white has-background-info'>
+        <div class='hero-body'>
+            <div class='block has-text-centered'>
+                <a href='index.html' class='button'>Home</a>
+                <a href='violin.html' class='button is-primary'>Violin</a>
+                <a href='piano.html' class='button'>Piano</a>
+                <a href='contact.html' class='button'>Contact</a>
+                <a href='mentor.html' class='button'>Become a mentor</a>
+            </div>
+        </div>
+    </div>
+    <footer class="hero hero-small has-background-info has-text-white">
+        <div class="hero-body">
+            <div class="container">
+                <div class="content">
+                    <p class="has-text-centered is-size-4">
+                        This site was created to fulfill Web Technologies module’s requirements and does not represent actual company.
+                    </p>
+                    <p class="has-text-centered is-size-4">
+                        <a href="00007338.docx" class="button has-text-primary">Plan and evaluation report.</a>
+                    </p>
+                    <p class="has-text-centered is-size-3">
+                        <strong>My ID:00007338</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

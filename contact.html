@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact us | Meloman</title>
+    <link rel="stylesheet" href="css/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="js/aos-master/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <p class="is-uppercase title">
+                    <img src="icons/piano.svg" aria-hidden="true">Meloman
+                </p>
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a href="index.html" class="navbar-item">Home</a>
+                <a href="violin.html" class="navbar-item">Violin</a>
+                <a href="piano.html" class="navbar-item">Piano</a>
+                <a href="contact.html" class="navbar-item">Contact</a>
+                <a href="mentor.html" class="navbar-item">Become a mentor</a>
+            </div>
+        </div>
+    </nav>
+    <section class="hero is-success is-medium">
+        <div class="hero-body">
+            <div class='columns'>
+                <div class='column has-text-left'>
+                    <h1 class="title is-size-1">
+                        Contact us
+                    </h1>
+                    <h2 class="subtitle is-size-2">
+                        We are always open for suggestions and feedback!
+                    </h2>
+                </div>
+                <div class="column main-pic">
+                    <img src='icons/phone-solid.svg'>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='hero is-medium is-light'>
+        <div class='hero-body'>
+            <div class='container'>
+                <div class='columns'>
+                    <div class="column">
+                        <h1 class='title is-size-1 has-text-centered'>Leave your request!</h1>
+                        <form>
+                            <input class='input' type='text' placeholder="Name" required>
+                            <input class='input' type='email' placeholder="Your email" required>
+                            <input class='button is-success' type='submit' placeholder="your email">
+                        </form>
+                        <div class="modal is-clipped">
+                            <div class="modal-background" onclick='closeModal()'></div>
+                            <div class="modal-content has-background-light">
+                                <h2 class='title'>Thank you!</h2>
+                                <p class='subtitle'>We will contact you as soon as possible!</p>
+                            </div>
+                            <button class="modal-close is-large" onclick='closeModal()' aria-label="close"></button>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7909bb4eef31d65f0262ff152df7a227c3f7895b768e26b6e6afa36c6a73db55&amp;source=constructor" width="100%" height="200" frameborder="0"></iframe>
+                        <h2 class='subtitle is-size-2'>Our address:</h2>
+                        <ul class='is-size-3'>
+                            <li>28 St Broadway, Manhattan NY</li>
+                            <li><a href="callto:+555-00-11-22">+555-00-11-22</a></li>
+                            <li><a href="mailto:melomansite@gmail.com">melomansite@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class='hero is-medium' id="comments">
+        <div class='hero-body'>
+            <div class="container feedback-box">
+                <h1 class='title has-text-black'>Leave your comments about tutorials here!</h1>
+                <div class="field">
+                    <label class="label">Your first name</label>
+                    <div class="control">
+                        <input class="input feedback-name" type="text" placeholder="Name Surname ">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Your feedback</label>
+                    <div class="control">
+                        <textarea class="textarea feedback-text" placeholder="Your feedback"></textarea>
+                    </div>
+                </div>
+                <div class='field'>
+                    <div class="control">
+                        <button class="button is-link feedback-btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='hero is-small is-white has-background-info'>
+        <div class='hero-body'>
+            <div class='block has-text-centered'>
+                <a href='index.html' class='button'>Home</a>
+                <a href='violin.html' class='button'>Violin</a>
+                <a href='piano.html' class='button'>Piano</a>
+                <a href='contact.html' class='button  is-primary'>Contact</a>
+                <a href='mentor.html' class='button'>Become a mentor</a>
+            </div>
+        </div>
+    </div>
+    <footer class="hero hero-small has-background-info has-text-white">
+        <div class="hero-body">
+            <div class="container">
+                <div class="content">
+                    <p class="has-text-centered is-size-4">
+                        This site was created to fulfill Web Technologies module’s requirements and does not represent actual company.
+                    </p>
+                    <p class="has-text-centered is-size-4">
+                        <a href="00007338.docx" class="button has-text-primary">Plan and evaluation report.</a>
+                    </p>
+                    <p class="has-text-centered is-size-3">
+                        <strong>My ID:00007338</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
